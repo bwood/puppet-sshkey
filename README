@@ -1,0 +1,15 @@
+= SSHKey Puppet module
+
+Install a user's public key on a server.
+
+Install a user's private key on server. (Take care with security).
+
+== Example:
+
+  sshkey::publickey { "aegir public key":
+    user => $aegir_unix_user,
+    group => $aegir_unix_group,
+    sshdir => '/var/aegir/.ssh',
+    content => "${aegir_key_type} ${aegir_pub_key} ${aegir_key_name}",
+  }
+
