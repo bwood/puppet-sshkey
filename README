@@ -1,4 +1,15 @@
+= Copyright, GPL, No Warranty
+
+Copyright 2010 University of California. Written by Brian Wood. This
+code is distributed under the terms of the GNU General Public
+License. See LICENSE.txt.
+
+No warranty is provided and the author claims no responsibility for
+any disasters caused during the execution of this script.
+
 = SSHKey Puppet module
+
+Note: "sshkey" is a bad name choice.  Puppet function of same name exists. Chage to something like "sshuserkey" at some point. 
 
 Install a user's public key on a server.
 

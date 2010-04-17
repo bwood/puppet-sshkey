@@ -14,7 +14,6 @@ define sshkey::publickey (
     # http://projects.reductivelabs.com/issues/2748
     # source => "puppet:///users/${user}/keys/id_dsa.pub",
     content => $content,
-    require => File[$sshdir],
   }
 
 }
