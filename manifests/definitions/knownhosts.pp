@@ -18,7 +18,7 @@ define sshkey::knownhosts (
 
   #TODO implement host_aliases
 
-  $key_content = "${host} ${type} ${key}" 
+  $key_content = "${host} ${type} ${key}"
   file { "${sshdir}/known_hosts":
     owner => $user,
     group => $group,

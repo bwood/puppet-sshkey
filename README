@@ -9,7 +9,7 @@ any disasters caused during the execution of this script.
 
 = SSHKey Puppet module
 
-Note: "sshkey" is a bad name choice.  Puppet function of same name exists. Chage to something like "sshuserkey" at some point. 
+Note: "sshkey" is a bad name choice.  Puppet function of same name exists. Chage to something like "sshuserkey" at some point.
 
 Install a user's public key on a server.
 
